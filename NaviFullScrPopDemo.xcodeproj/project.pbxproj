@@ -13,6 +13,7 @@
 		AC5DEB391F1625690068B545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5DEB371F1625690068B545 /* Main.storyboard */; };
 		AC5DEB3B1F1625690068B545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5DEB3A1F1625690068B545 /* Assets.xcassets */; };
 		AC5DEB3E1F1625690068B545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5DEB3C1F1625690068B545 /* LaunchScreen.storyboard */; };
+		AC5DEB481F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DEB471F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC5DEB3A1F1625690068B545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5DEB3D1F1625690068B545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5DEB3F1F1625690068B545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5DEB461F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		AC5DEB471F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		AC5DEB2D1F1625690068B545 /* NaviFullScrPopDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC5DEB451F16257B0068B545 /* FDFullscreenPopGesture */,
 				AC5DEB311F1625690068B545 /* AppDelegate.h */,
 				AC5DEB321F1625690068B545 /* AppDelegate.m */,
 				AC5DEB341F1625690068B545 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				AC5DEB2F1F1625690068B545 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC5DEB451F16257B0068B545 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DEB461F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.h */,
+				AC5DEB471F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				AC5DEB361F1625690068B545 /* ViewController.m in Sources */,
 				AC5DEB331F1625690068B545 /* AppDelegate.m in Sources */,
+				AC5DEB481F16257B0068B545 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				AC5DEB301F1625690068B545 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
